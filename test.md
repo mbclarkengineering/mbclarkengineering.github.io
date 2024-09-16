@@ -19,6 +19,7 @@ stateDiagram-v2
         defend_sshLog --> defend_packet : defend_done
         defend_packet --> defend_init : defend_done
     }
+    [*] --> monitor
     monitor --> detect : monitor_done [is_sshLogChanged]
     monitor --> detect : monitor_done [is_packet]
     detect --> defend : detect_done [is_sshLogChanged]
