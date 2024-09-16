@@ -1,4 +1,5 @@
-'''mermaid
+
+``` mermaid
 stateDiagram-v2
     [*] --> First
     state First {
@@ -13,4 +14,4 @@ stateDiagram-v2
         namedSimple --> [*]
         namedSimple: Another simple
     }
-  '''
+```
