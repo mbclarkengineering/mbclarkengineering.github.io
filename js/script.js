@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (contactBtn) {
         contactBtn.addEventListener('click', function() {
-            alert('Thanks for clicking! This is where you could add contact functionality.');
+            window.location.href = 'mailto:matt@mbclarkengineering.com';
         });
     }
 
